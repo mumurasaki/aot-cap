@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attack on Titan Timeline</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .timeline {
+      position: relative;
+      margin: 50px auto;
+      padding: 0;
+      list-style: none;
+      max-width: 800px;
+    }
+    
+    .timeline:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 40px;
+      width: 2px;
+      background-color: #333;
+    }
+    
+    .timeline li {
+      position: relative;
+      margin-bottom: 50px;
+      padding-left: 50px;
+    }
+    
+    .timeline li:before {
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 20px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #333;
+    }
+    
+    .timeline li .timeline-content {
+      position: relative;
+      top: -5px;
+      display: inline-block;
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <ul class="timeline">
+    <li>
+      <div class="timeline-content">
+        <h2>Season 1: Fall of Wall Maria</h2>
+        <p>The story begins with the breach of Wall Maria by the Titans, leading to the fall of Shiganshina District and forcing humanity to retreat behind Wall Rose.</p>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-content">
+        <h2>Season 2: Clash of the Titans</h2>
+        <p>Eren Yeager discovers his ability to transform into a Titan and faces off against other Titans, including the mysterious Beast Titan.</p>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-content">
+        <h2>Season 3: Human vs. Titan</h2>
+        <p>The Survey Corps uncover the secrets of the government and the true nature of the Titans, leading to a conflict within humanity and the uncovering of the basement's secrets.</p>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-content">
+        <h2>Season 4: Marley Arc</h2>
+        <p>The story expands beyond the walls as the truth about the outside world and the conflicts between Marley and Eldia come to light.</p>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-content">
+        <h2>Final Season: The Rumbling</h2>
+        <p>The story reaches its climax as the ultimate plan to save humanity unfolds, involving the destructive power of the Founding Titan
+    </li>
+   </ul>
+</body>
+</html>
